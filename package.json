@@ -1,0 +1,28 @@
+{
+  "name": "react-autosize-datepicker",
+  "version": "1.0.0",
+  "description": "Auto-resizing Datepicker Input Component For React ( react-autosize-input + react-datepicker )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinzwh/react-autosize-datepicker.git"
+  },
+  "keywords": [
+    "[\"react\"",
+    "\"react-component\"",
+    "\"date\"",
+    "\"datepicker\"",
+    "\"input\"",
+    "\"autosize\"",
+    "\"calendar\"]"
+  ],
+  "author": "Kevin Huang <kevin.ziwen.huang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinzwh/react-autosize-datepicker/issues"
+  },
+  "homepage": "https://github.com/kevinzwh/react-autosize-datepicker#readme"
+}
