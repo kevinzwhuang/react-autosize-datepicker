@@ -31,6 +31,7 @@ var DatePicker = React.createClass({
     locale: React.PropTypes.string,
     maxDate: React.PropTypes.object,
     minDate: React.PropTypes.object,
+    minWidth: React.PropTypes.number,
     name: React.PropTypes.string,
     onBlur: React.PropTypes.func,
     onChange: React.PropTypes.func.isRequired,
@@ -164,6 +165,7 @@ var DatePicker = React.createClass({
         name={this.props.name}
         date={this.props.selected}
         locale={this.props.locale}
+        minWidth={this.props.minWidth}
         minDate={this.props.minDate}
         maxDate={this.props.maxDate}
         excludeDates={this.props.excludeDates}
