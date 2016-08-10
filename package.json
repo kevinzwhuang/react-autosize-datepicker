@@ -4,6 +4,7 @@
   "description": "Auto-resizing Datepicker Input Component For React ( react-autosize-input + react-datepicker )",
   "main": "index.js",
   "scripts": {
+    "build": "NODE_ENV=production grunt build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
