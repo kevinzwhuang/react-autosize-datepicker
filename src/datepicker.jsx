@@ -11,7 +11,7 @@ var outsideClickIgnoreClass = 'react-datepicker-ignore-onclickoutside'
  * General datepicker component.
  */
 
-var ReactAutosizeDatePicker = React.createClass({
+var AutosizeDatePicker = React.createClass({
   displayName: 'DatePicker',
 
   propTypes: {
@@ -222,4 +222,4 @@ var ReactAutosizeDatePicker = React.createClass({
   }
 })
 
-module.exports = ReactAutosizeDatePicker
+module.exports = AutosizeDatePicker

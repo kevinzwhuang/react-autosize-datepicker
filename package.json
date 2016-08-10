@@ -1,6 +1,6 @@
 {
   "name": "react-autosize-datepicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Auto-resizing Datepicker Input Component For React ( react-autosize-input + react-datepicker )",
   "main": "dist/react-autosize-datepicker.min.js",
   "style": "dist/react-datepicker.min.css",
