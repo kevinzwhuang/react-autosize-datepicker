@@ -59,12 +59,12 @@ module.exports = function (grunt) {
     webpack: {
       unmin: mergeWebpackConfig({
         output: {
-          filename: 'react-datepicker.js'
+          filename: 'react-autosize-datepicker.js'
         }
       }),
       min: mergeWebpackConfig({
         output: {
-          filename: 'react-datepicker.min.js'
+          filename: 'react-autosize-datepicker.min.js'
         },
         plugins: [
           new webpack.optimize.UglifyJsPlugin({

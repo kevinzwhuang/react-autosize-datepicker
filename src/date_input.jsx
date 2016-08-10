@@ -87,7 +87,6 @@ var DateInput = React.createClass({
     return <AutosizeInput
         ref='input'
         {...rest}
-        minWidth={this.props.minWidth}
         value={this.state.value}
         onBlur={this.handleBlur}
         onChange={this.handleChange} />

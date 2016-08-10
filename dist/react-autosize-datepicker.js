@@ -88,7 +88,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * General datepicker component.
 	 */
 
-	var DatePicker = _react2.default.createClass({
+	var ReactAutosizeDatePicker = _react2.default.createClass({
 	  displayName: 'DatePicker',
 
 	  propTypes: {
@@ -285,7 +285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	});
 
-	module.exports = DatePicker;
+	module.exports = ReactAutosizeDatePicker;
 
 /***/ },
 /* 1 */
@@ -395,7 +395,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return _react2.default.createElement(AutosizeInput, _extends({
 	      ref: 'input'
 	    }, rest, {
-	      minWidth: this.props.minWidth,
 	      value: this.state.value,
 	      onBlur: this.handleBlur,
 	      onChange: this.handleChange }));
